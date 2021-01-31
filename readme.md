@@ -3,6 +3,11 @@
 [![Latest Stable Version](https://poser.pugx.org/barryvdh/laravel-debugbar/version.png)](https://packagist.org/packages/barryvdh/laravel-debugbar)
 [![Total Downloads](https://poser.pugx.org/barryvdh/laravel-debugbar/d/total.png)](https://packagist.org/packages/barryvdh/laravel-debugbar)
 
+### Modification Note - Josiah Williams
+To handle cloud environment https termination in cluster this package has been
+modified to provide the full secure url when setting the open handler to avoid
+mixed-content errors
+
 ### For Laravel 4, please use the [1.8 branch](https://github.com/barryvdh/laravel-debugbar/tree/1.8)!
 
 This is a package to integrate [PHP Debug Bar](http://phpdebugbar.com/) with Laravel 5.
